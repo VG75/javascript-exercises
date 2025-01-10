@@ -1,4 +1,12 @@
-const reverseString = function() {
+const reverseString = function(s) {
+    let ans = "";
+    let n = s.length;
+    for (let i = n - 1; i >= 0; i--) {
+        ans += s[i];
+    }
+   
+    return ans;
+
 
 };
 
